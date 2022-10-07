@@ -22,7 +22,6 @@ public class TicketManager {
                 }
                 tmp[tmp.length - 1] = ticket;
                 result = tmp;
-
             }
         }
         Arrays.sort(result);
@@ -37,7 +36,6 @@ public class TicketManager {
             return false;
         }
         return true;
-
     }
 
 }

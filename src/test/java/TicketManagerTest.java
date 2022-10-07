@@ -56,4 +56,14 @@ public class TicketManagerTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
+
+    @Test
+    public void testWhenNoTicketsFind(){
+
+        Ticket[] expected = {};
+        Ticket[] actual = ticketManager.findAll("SVO", "MQF");
+
+        Assertions.assertArrayEquals(expected, actual);
+
+    }
 }
